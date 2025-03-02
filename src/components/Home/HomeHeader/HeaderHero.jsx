@@ -11,7 +11,7 @@ export const HeaderHero = () => {
       </h1>
       <img
         className="header-hero__img"
-        src="/public/Decoration.png"
+        src="/Decoration.png"
         alt="decoration"
       />
       <div className="header-hero__btns">
