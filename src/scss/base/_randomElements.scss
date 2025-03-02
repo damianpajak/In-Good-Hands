@@ -1,0 +1,9 @@
+@use "../settings/colors";
+
+.separation {
+  content: "";
+  display: block;
+  width: 7rem;
+  height: 0.1rem;
+  background-color: colors.$fifthColor;
+}
