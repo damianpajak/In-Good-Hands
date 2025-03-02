@@ -1,13 +1,13 @@
-import { InstructionColumn } from "./InstructionColumn";
+import { InfoColumn } from "./InfoColumn";
 
-export const HomeInstruction = () => {
+export const HomeInfo = () => {
   const columnDescription =
     "Lorem ipsum sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.";
 
   return (
     <div className="home-instruction">
       <div className="home-instruction__columns container">
-        <InstructionColumn
+        <InfoColumn
           num="10"
           title="ODDANYCH WORKÓW"
           txt={columnDescription}
@@ -16,7 +16,7 @@ export const HomeInstruction = () => {
           titleStyle="instruction-column__title"
           txtStyle="instruction-column__text"
         />
-        <InstructionColumn
+        <InfoColumn
           num="5"
           title="WSPARTYCH ORGANIZACJI"
           txt={columnDescription}
@@ -25,7 +25,7 @@ export const HomeInstruction = () => {
           titleStyle="instruction-column__title"
           txtStyle="instruction-column__text"
         />
-        <InstructionColumn
+        <InfoColumn
           num="7"
           title="ZORGANIZOWANYCH ZBIÓREK"
           txt={columnDescription}

@@ -1,4 +1,4 @@
-export const InstructionColumn = ({
+export const InfoColumn = ({
   num,
   title,
   txt,

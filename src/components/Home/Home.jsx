@@ -3,12 +3,12 @@ import { HomeAboutMe } from "./HomeAboutMe";
 import { HomeContact } from "./HomeContact";
 import { HomeFooter } from "./HomeFooter";
 import { HomeHeader } from "./HomeHeader/HomeHeader";
-import { HomeInfo } from "./HomeInfo";
-import { HomeInstruction } from "./HomeInstruction/HomeInstruction";
+import { HomeInstruction } from "./HomeInstruction";
 import { HomeWeHelp } from "./HomeWeHelp";
 import { useEffect } from "react";
 import { scroller } from "react-scroll";
 import { HeaderNav } from "./HomeNavigation/HeaderNavigation/HeaderNav";
+import { HomeInfo } from "./HomeInfo/HomeInfo";
 
 export const Home = () => {
   const location = useLocation();
@@ -38,10 +38,10 @@ export const Home = () => {
         <HomeHeader />
       </section>
       <section>
-        <HomeInstruction />
+        <HomeInfo />
       </section>
       <section id="navWhatIsItAbout">
-        <HomeInfo />
+        <HomeInstruction />
       </section>
       <section id="navAboutUs">
         <HomeAboutMe />
