@@ -3,5 +3,10 @@
 @use "base/reset";
 
 // settings
-@use "settings/colors";
 @use "settings/fonts";
+@use "settings/colors";
+
+//website stages
+@use "stages/HomeHeader";
+@use "stages/homeInstruction";
+@use "stages/homeNavigation";
