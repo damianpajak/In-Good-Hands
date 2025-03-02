@@ -1,6 +1,7 @@
 // base
 @use "base/typography";
 @use "base/reset";
+@use "base/randomElements"; // small random elements placed on the page
 
 // settings
 @use "settings/fonts";
@@ -10,3 +11,4 @@
 @use "stages/homeNavigation";
 @use "stages/homeHeader";
 @use "stages/homeInfo";
+@use "stages/homeInstruction";
