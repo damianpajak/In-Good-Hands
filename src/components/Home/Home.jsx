@@ -3,7 +3,7 @@ import { HomeAboutMe } from "./HomeAboutMe";
 import { HomeContact } from "./HomeContact";
 import { HomeFooter } from "./HomeFooter";
 import { HomeHeader } from "./HomeHeader/HomeHeader";
-import { HomeInstruction } from "./HomeInstruction";
+import { HomeInstruction } from "./HomeInstruction/HomeInstruction";
 import { HomeWeHelp } from "./HomeWeHelp";
 import { useEffect } from "react";
 import { scroller } from "react-scroll";

@@ -7,6 +7,6 @@
 @use "settings/colors";
 
 //website stages
-@use "stages/HomeHeader";
-@use "stages/homeInstruction";
 @use "stages/homeNavigation";
+@use "stages/homeHeader";
+@use "stages/homeInfo";
