@@ -1,0 +1,43 @@
+@use "../settings/colors";
+
+.home-instruction {
+  display: flex;
+  justify-content: center;
+  background-image: url("/ThreeColumnBackground.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+
+  &__columns {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 8.6rem 0;
+  }
+
+  .instruction-column__number {
+    font-size: 9rem;
+    font-weight: 300;
+    color: colors.$secondColor;
+  }
+
+  .instruction-column__title {
+    font-size: 1.8rem;
+    color: colors.$fifthColor;
+    margin: 2.8rem 0;
+  }
+
+  .instruction-column__text {
+    font-size: 1.6rem;
+    color: colors.$fifthColor;
+    text-align: center;
+    font-weight: 300;
+  }
+}
