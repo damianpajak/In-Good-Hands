@@ -1,0 +1,63 @@
+@use "../settings/colors";
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  height: 96.3rem;
+  margin-bottom: -11.5rem;
+
+  .header-image {
+    position: relative;
+    height: 96.3rem;
+    width: 88.5rem;
+
+    img {
+      position: absolute;
+      bottom: 11.5rem;
+      right: -2rem;
+    }
+  }
+
+  .header-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 83rem;
+    left: 6.6rem;
+
+    h1:nth-of-type(2) {
+      margin-top: 1rem;
+    }
+
+    &__txt {
+      font-size: 3.8rem;
+      letter-spacing: -0.076rem;
+      color: colors.$fifthColor;
+    }
+
+    &__img {
+      margin-top: 3.1rem;
+      margin-bottom: 6.5rem;
+    }
+
+    .header-hero__btns {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 3.6rem;
+      font-weight: 300;
+
+      .header-hero__btn {
+        display: inline-block;
+        border: 1px solid colors.$fifthColor;
+        padding: 2rem 5rem;
+        text-align: center;
+        width: 31rem;
+        padding: 2rem 3.3rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
