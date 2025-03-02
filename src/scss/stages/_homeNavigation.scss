@@ -1,0 +1,51 @@
+@use "../settings/colors";
+
+.home-navigation {
+  margin-top: 3.7rem;
+  margin-right: 14.2rem;
+
+  .auth-panel {
+    display: flex;
+    justify-content: flex-end;
+    height: 3.6rem;
+
+    &__sign {
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: colors.$fourthColor;
+      padding: 1rem;
+      border: 1px solid transparent;
+      outline: none;
+
+      &:last-child {
+        margin-left: 1rem;
+      }
+
+      &:hover {
+        border: 1px solid colors.$thirdColor;
+      }
+    }
+  }
+
+  .menu-panel {
+    display: flex;
+    justify-content: flex-end;
+    height: 4.2rem;
+
+    &__item {
+      font-size: 1.8rem;
+      color: colors.$fifthColor;
+      cursor: pointer;
+      padding: 1rem;
+      border: 1px solid transparent;
+
+      &:not(:first-child) {
+        margin-left: 1.5rem;
+      }
+
+      &:hover {
+        border: 1px solid colors.$fifthColor;
+      }
+    }
+  }
+}
