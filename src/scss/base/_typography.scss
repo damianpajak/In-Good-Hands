@@ -2,8 +2,13 @@
 
 :root {
   font-size: 62.5%;
+  font-family: fonts.$font-base;
 }
 
-body {
-  font-family: $font-base;
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 190rem;
 }
