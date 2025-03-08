@@ -1,14 +1,13 @@
 import { useLocation } from "react-router-dom";
-import { HomeAboutMe } from "./HomeAboutMe";
 import { HomeContact } from "./HomeContact";
-import { HomeFooter } from "./HomeFooter";
 import { HomeHeader } from "./HomeHeader/HomeHeader";
 import { HomeInstruction } from "./HomeInstruction/HomeInstruction";
-import { HomeWeHelp } from "./HomeWeHelp";
+import { HomeWeHelp } from "./HomeWeHelp/HomeWeHelp";
 import { useEffect } from "react";
 import { scroller } from "react-scroll";
 import { HeaderNav } from "./HomeNavigation/HeaderNavigation/HeaderNav";
 import { HomeInfo } from "./HomeInfo/HomeInfo";
+import { HomeAboutUs } from "./HomeAboutUs/HomeAboutUs";
 
 export const Home = () => {
   const location = useLocation();
@@ -44,7 +43,7 @@ export const Home = () => {
         <HomeInstruction />
       </section>
       <section id="navAboutUs">
-        <HomeAboutMe />
+        <HomeAboutUs />
       </section>
       <section id="navActivity">
         <HomeWeHelp />
@@ -52,7 +51,6 @@ export const Home = () => {
       <section id="navContact">
         <HomeContact />
       </section>
-      <HomeFooter />
     </div>
   );
 };
