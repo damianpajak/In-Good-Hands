@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { HomeContact } from "./HomeContact";
+import { HomeContact } from "./HomeContact/HomeContact";
 import { HomeHeader } from "./HomeHeader/HomeHeader";
 import { HomeInstruction } from "./HomeInstruction/HomeInstruction";
 import { HomeWeHelp } from "./HomeWeHelp/HomeWeHelp";
